@@ -1,0 +1,50 @@
+RESPOSTAS DA ATIVIDADE 01 - ML
+
+1. Explique, com suas palavras, o que é Machine Learning?
+
+R: É quando o computador aprende sozinho a fazer tarefas usando dados, sem precisar ser programado passo a passo. 
+Exemplo: um programa que aprende a reconhecer fotos de gatos vendo muitas imagens.
+
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e
+conjunto de teste em Machine Learning.
+
+R: 
+- Treinamento: São os dados usados para ensinar o modelo.
+- Validação: Dados usados para ajustar o modelo durante o treino.
+- Teste: Dados separados no final para testar se o modelo aprendeu direito.
+
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados
+de treinamento.
+
+R: Podemos:
+- Apagar as linhas com dados faltantes (se forem poucas)
+- Preencher com:
+  * Números: usar a média (ex: idade média do grupo)
+  * Textos: usar o valor que mais aparece (ex: cor "azul" se for a mais comum)
+- Usar algoritmos que funcionam com dados faltantes
+
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o
+desempenho de um modelo preditivo?
+
+R: É uma tabela que mostra:
+- VP (Verdadeiro Positivo): quando o modelo acerta o "sim"
+- FP (Falso Positivo): quando diz "sim" mas era "não"
+- FN (Falso Negativo): quando diz "não" mas era "sim"
+Serve para calcular:
+- Acurácia: porcentagem de acertos totais
+- Precisão: porcentagem de "sim" corretos
+
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura,
+entre outras) você acha mais interessante aplicar algoritmos de Machine
+Learning?
+
+R:
+- Saúde: diagnosticar doenças usando exames de imagem
+- Agricultura: prever a melhor época para plantar
+- Industria: prever quando máquinas vão quebrar
+- Construção: planejar obras com menos custos
+- Transporte: carros que dirigem sozinhos
